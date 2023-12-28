@@ -1,0 +1,524 @@
+* {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    animation: myAnim 2s ease 0s 1 normal;
+}
+
+@keyframes myAnim {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes myAnim1 {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+@keyframes move {
+    0% {
+        transform: translateX(10%);
+    }
+
+    50% {
+        transform: translateX(-170%)
+    }
+
+    100% {
+        transform: translateX(10%);
+    }
+
+}
+
+.body {
+    background-color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    display: flex;
+}
+
+.line {
+    border-bottom: 3px solid;
+    padding-top: 0;
+    padding: 0;
+}
+
+.line1 {
+    border-bottom: 3px solid;
+    padding-top: 0;
+    padding: 0;
+    padding-top: 30px;
+}
+
+.logo {
+    padding-top: 0;
+    padding-left: 10px;
+    width: 22.5px;
+    height: 22.5px;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+}
+
+.logo:hover {
+    opacity: 0.7;
+}
+
+
+.Cube {
+    margin-top: 0;
+    width: 22.5px;
+    height: 22.5px;
+    padding-left: 30px;
+    flex-shrink: 0;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+
+}
+
+.cube1 {
+    margin-right: 88%;
+}
+
+.Cube:hover {
+    opacity: 0.7;
+}
+
+.MB1 {
+    display: flex;
+}
+
+.textmine {
+    padding-left: 106px;
+}
+
+.img1 {
+    height: 425px;
+    width: 425px;
+    padding: 100px;
+}
+
+.img1-1 {
+    display: flex;
+    justify-content: center;
+}
+
+.name {
+    color: #3A4143;
+    font-family: Montserrat;
+    font-size: 32.5px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding-top: 125px;
+}
+
+.name2 {
+    color: #3A4143;
+    font-family: Montserrat;
+    font-size: 67.5px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.name3 {
+    color: #3A4143;
+    font-family: Montserrat;
+    font-size: 17.5px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.button1 {
+    border-radius: 10px;
+    color: #D9D9D9;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 135.309%;
+    /* 32.474px */
+
+
+    border: none;
+    background: #3A4143;
+    font-size: 9px;
+    text-decoration: none;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+}
+
+.button2 {
+    text-align: center;
+}
+
+.button1:hover {
+    background-color: #D9D9D9;
+    color: #3A4143;
+}
+
+
+.textb2 {
+    color: #3A4143;
+    font-family: Montserrat;
+    font-size: 37.5px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding-left: 30px;
+}
+
+
+.block2-1 {
+    display: flex;
+    text-align: center;
+    padding-bottom: 60px;
+    padding-top: 60px;
+    position: relative;
+    overflow: hidden;
+}
+
+
+.bi1 {
+    width: 375px;
+    height: 375px;
+    padding-left: 0px;
+}
+
+.bi2 {
+    width: 375px;
+    height: 375px;
+    padding-left: 50px;
+}
+
+
+.bi3 {
+    width: 375px;
+    height: 375px;
+    padding-left: 50px;
+}
+
+.copy {
+    color: #3A4143;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding-left: 30px;
+}
+
+.text1 {
+    border-radius: 30px;
+    margin-top: 0;
+    opacity: 0;
+    color: #D9D9D9;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    transition: .5s ease;
+    width: 375px;
+    height: 375px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: myAnim1 2s ease 0s 1 normal;
+}
+
+.project1:hover .text1 {
+    border-radius: 30px;
+    opacity: 1;
+    background: rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+}
+
+.text2 {
+    border-radius: 30px;
+    margin-top: 0;
+    opacity: 0;
+    color: #D9D9D9;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    transition: .5s ease;
+    width: 375px;
+    height: 375px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: myAnim1 2s ease 0s 1 normal;
+}
+
+.project2:hover .text2 {
+    border-radius: 30px;
+    opacity: 1;
+    background: rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+}
+
+.a {
+    text-decoration: none;
+}
+
+.text3 {
+    border-radius: 30px;
+    margin-top: 0;
+    opacity: 0;
+    color: #D9D9D9;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    transition: .5s ease;
+    width: 375px;
+    height: 375px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: myAnim1 2s ease 0s 1 normal;
+}
+
+.project3:hover .text3 {
+    border-radius: 30px;
+    opacity: 1;
+    background: rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+}
+
+.text4 {
+    border-radius: 30px;
+    margin-top: 0;
+    opacity: 0;
+    color: #D9D9D9;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    transition: .5s ease;
+    width: 375px;
+    height: 375px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: myAnim1 2s ease 0s 1 normal;
+}
+
+.project4:hover .text4 {
+    border-radius: 30px;
+    opacity: 1;
+    background: rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+}
+
+.text5 {
+    border-radius: 30px;
+    margin-top: 0;
+    opacity: 0;
+    color: #D9D9D9;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    transition: .5s ease;
+    width: 375px;
+    height: 375px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: myAnim1 2s ease 0s 1 normal;
+}
+
+.project5:hover .text5 {
+    border-radius: 30px;
+    opacity: 1;
+    background: rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+}
+
+.project1-1 {
+    border-radius: 30px;
+}
+
+.project1 {
+    border-radius: 30px;
+    display: flex;
+    width: 375px;
+    height: 375px;
+    background-image: url(img/Group\ 2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* Растягиваем  фон по высоте и ширине */
+    background-position: center;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    white-space: nowrap;
+    flex-shrink: 0;
+    animation: move 30s linear infinite;
+
+}
+
+.project2-1 {
+    border-radius: 30px;
+    padding-left: 50px;
+}
+
+.project2 {
+    border-radius: 30px;
+    display: flex;
+    width: 375px;
+    height: 375px;
+    background-image: url(img/Group\ 3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* Растягиваем  фон по высоте и ширине */
+    background-position: center;
+    white-space: nowrap;
+    flex-shrink: 0;
+    animation: move 30s linear infinite;
+
+}
+
+.project3-1 {
+    padding-left: 50px;
+}
+
+
+.project3 {
+    border-radius: 30px;
+    display: flex;
+    width: 375px;
+    height: 375px;
+    background-image: url(img/Group\ 1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* Растягиваем  фон по высоте и ширине */
+    background-position: center;
+    white-space: nowrap;
+    flex-shrink: 0;
+    animation: move 30s linear infinite;
+
+}
+
+.project4-1 {
+    padding-left: 50px;
+}
+
+
+.project4 {
+    border-radius: 30px;
+    display: flex;
+    width: 375px;
+    height: 375px;
+    background-image: url(img/Group\ 1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* Растягиваем  фон по высоте и ширине */
+    background-position: center;
+    white-space: nowrap;
+    flex-shrink: 0;
+    animation: move 30s linear infinite;
+
+}
+
+.project5-1 {
+    padding-left: 50px;
+}
+
+
+.project5 {
+    border-radius: 30px;
+    display: flex;
+    width: 375px;
+    height: 375px;
+    background-image: url(img/Group\ 1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* Растягиваем  фон по высоте и ширине */
+    background-position: center;
+    white-space: nowrap;
+    flex-shrink: 0;
+    animation: move 30s linear infinite;
+
+}
+
+.blok {
+    display: flex;
+    justify-content: center;
+}
+
+.textb3 {
+    color: #3A4143;
+    font-family: Montserrat;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding-left: 70px;
+}
+
+
+.ilearn {
+    padding-top: 35px;
+    display: flex;
+    text-align: center;
+}
+
+@media only screen and (max-width: 827px) {
+    details[open] {
+        height: 25em
+    }
+}
+
+@media only screen and (max-width: 607px) {
+    details[open] {
+        height: 28em
+    }
+}
+
+@media only screen and (max-width: 537px) {
+    details[open] {
+        height: 32em
+    }
+}
+
+@media only screen and (max-width: 460px) {
+    details[open] {
+        height: 34em
+    }
+}
+
+@media only screen and (max-width: 431px) {
+    details[open] {
+        height: 38em
+    }
+}
