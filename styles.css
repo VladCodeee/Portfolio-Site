@@ -54,6 +54,7 @@
     border-bottom: 3px solid;
     padding-top: 0;
     padding: 0;
+    width: 100%
 }
 
 .line1 {
@@ -418,7 +419,7 @@
     display: flex;
     width: 375px;
     height: 375px;
-    background-image: url(img/Group\ 1.png);
+    background-image: url(img/Group\ 3.png);
     background-repeat: no-repeat;
     background-size: cover;
     /* Растягиваем  фон по высоте и ширине */
@@ -493,32 +494,3 @@
     text-align: center;
 }
 
-@media only screen and (max-width: 827px) {
-    details[open] {
-        height: 25em
-    }
-}
-
-@media only screen and (max-width: 607px) {
-    details[open] {
-        height: 28em
-    }
-}
-
-@media only screen and (max-width: 537px) {
-    details[open] {
-        height: 32em
-    }
-}
-
-@media only screen and (max-width: 460px) {
-    details[open] {
-        height: 34em
-    }
-}
-
-@media only screen and (max-width: 431px) {
-    details[open] {
-        height: 38em
-    }
-}
